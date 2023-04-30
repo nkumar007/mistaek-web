@@ -7,7 +7,7 @@ Responsive Design===
     
 }
 
-@media (max-width: 991px) {
+@media (max-width: 950px) {
 
     /*custom classes  */
     .text-content{
@@ -27,9 +27,33 @@ Responsive Design===
         line-height: 1.875rem;
     }
     /* Banner Design */
-    .top-banner{
-        padding:9.375rem 0 9.375rem;
-    }
+
+    
+    .top-banner {
+        /* padding: 12rem ; */
+        height: 100vh;
+        background-size: contain;
+        margin-bottom: 0;
+      }
+      .top-banner .heading{
+        margin-bottom: -3px;
+        font-size:xx-large;
+      }
+      .top-banner .about-us {
+        line-height: 1.3rem;
+        min-height: 300px;
+        font-size: medium;
+        text-align: left;
+      }
+
+      .top-banner .main-btn{
+        padding: 6px;
+      }
+
+      .top-banner .about-us ::first-letter{
+        font-size: 2rem;
+      }
+    
 
     /* carousel design */
     .testimonial-section .carousel-item .carousel-caption p{
@@ -42,7 +66,7 @@ Responsive Design===
 
     /* custom css */
     h1{
-        font-size:2.8rem;
+        font-size:2.2rem;
     }
     h2{
         font-size:2rem;
@@ -51,9 +75,30 @@ Responsive Design===
      
 
     /* top banner */
-    .top-banner{
-        padding:10.875rem 0 9.375rem;
-    }
+    .top-banner {
+        /* padding: 12rem ; */
+        height: 90vh;
+        background-size: contain;
+        margin-bottom: 0;
+      }
+      .top-banner .heading{
+        max-width: 400px;
+        /* margin-bottom: -2px; */
+        font-size: 1.8rem
+      }
+      .top-banner .about-us {
+        display: none;
+        line-height: 1.4rem;
+        max-width: 400px;
+        font-size: medium;
+        text-align: left;
+        
+      }
+    
+
+
+
+
     
 
     /* story section */
@@ -75,6 +120,10 @@ Responsive Design===
     .newsletter .main-btn{
         width:100%;
         margin-top:1rem;
+    }
+    .top-banner .main-btn{
+        padding: 3px;
+
     }
 
     /* footer link */

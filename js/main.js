@@ -47,7 +47,7 @@ myButton.forEach((btn) => {
 
     var modalContent = document.createElement("div");
     modalContent.classList.add("modal-content");
-    modalContent.innerHTML = "We are not yet taking orders!!";
+    modalContent.innerHTML = "Online Order Coming Soon!!\n<br> Visit our stores for Enriching Experience";
 
     var modalHeader = document.createElement("div");
     modalHeader.classList.add("modal-header");

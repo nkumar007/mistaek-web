@@ -77,9 +77,9 @@ Responsive Design===
     /* top banner */
     .top-banner {
         /* padding: 12rem ; */
-        height: 90vh;
+        /* height: 90vh; */
         background-size: contain;
-        margin-bottom: 0;
+        margin-bottom: -200px;
       }
       .top-banner .heading{
         max-width: 400px;

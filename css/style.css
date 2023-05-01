@@ -370,7 +370,8 @@ p {
 
 .testimonial-section .carousel-item .carousel-caption p{
   font-size: 1.3125rem;
-  line-height: 2.0625rem;
+  text-align: center;
+  line-height: 1.6rem;
   padding:0 11% 0.625rem;
 }
 .testimonial-section .carousel-indicators{

@@ -7,6 +7,10 @@ Responsive Design===
     
 }
 
+
+
+
+
 @media (max-width: 950px) {
 
     /*custom classes  */
@@ -62,7 +66,12 @@ Responsive Design===
      
 }
 
-@media (max-width: 767px) {
+
+
+
+
+
+@media ( max-width: 767px) {
 
     /* custom css */
     h1{
@@ -78,20 +87,18 @@ Responsive Design===
     .top-banner {
         /* padding: 12rem ; */
         /* height: 90vh; */
+        /* padding-top: -12rem; */
         background-size: contain;
-        margin-bottom: -200px;
+        margin-bottom: -225px;
       }
       .top-banner .heading{
+        /* padding-top: 40px; */
         max-width: 400px;
         /* margin-bottom: -2px; */
-        font-size: 1.8rem
+        font-size: 1.6rem
       }
       .top-banner .about-us {
         display: none;
-        line-height: 1.4rem;
-        max-width: 400px;
-        font-size: medium;
-        text-align: left;
         
       }
     
@@ -134,12 +141,31 @@ Responsive Design===
      
 }
 
-@media (max-width:330px) {
+@media (max-width:390px) {
 
     /* carousel design */
     .testimonial-section .carousel-item{
         padding:13rem 3.125rem;
     }
+
+    /* top banner */
+    .top-banner {
+        /* padding: 12rem ; */
+        height: 90vh;
+        /* padding-top: -12rem; */
+        background-size: contain;
+        margin-bottom: -225px;
+      }
+      .top-banner .heading{
+        /* padding-top: 40px; */
+        max-width: 400px;
+        /* margin-bottom: -2px; */
+        font-size: 1.6rem
+      }
+      .top-banner .about-us {
+        display: none;
+        
+      }
      
 }
         
